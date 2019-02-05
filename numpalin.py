@@ -1,9 +1,9 @@
-number = input('Enter any number : ')
+number = input('input : ')
 try:
     val = int(number)
     if number == str(number)[::-1]:
-        print('The given number is PALINDROME')
+        print('yes')
     else:
-        print('The given number is NOT a palindrome')
+        print('no')
 except ValueError:
     print("That's not a valid number, Try Again !")
