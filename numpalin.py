@@ -1,7 +1,7 @@
-number = input('input : ')
+numb = input('input : ')
 try:
-    val = int(number)
-    if number == str(number)[::-1]:
+    val = int(numb)
+    if numb == str(numb)[::-1]:
         print('yes')
     else:
         print('no')
