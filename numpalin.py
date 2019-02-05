@@ -1,4 +1,4 @@
-numb = input('input : ')
+numb = input(' ')
 try:
     val = int(numb)
     if numb == str(numb)[::-1]:
