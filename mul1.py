@@ -1,15 +1,10 @@
-#include<stdio.h>
-#include<conio.h>
-void main()
-{
-        longint sum=0,i,j;
-        clrscr();
-        printf("");
-        scanf("%ld",&j);
-        for(i=1;i<=j;i++)
-        {
-            printf("\n 5 * %ld = %ld",i,5*i);
-        }
-        
-        getch();
-}
+a=list()
+b=input()
+try:
+	c=int(b)
+except:
+	print("invalid input")
+else:
+	for i in range(1,6):
+		a.append(str(i*c))
+print(" ".join((a))) 
