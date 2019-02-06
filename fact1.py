@@ -1,8 +1,7 @@
-n = int(input(''))
-fact = 1
-  
-for i in range(1,n+1): 
-    fact = fact * n 
-      
-print ("The factorial of n is : ",end="") 
-print (fact) 
+def factorial(a):
+    if a == 0:
+        return 1
+    else:
+        return a * factorial(a-1)
+a=int(input(" "))
+print(factorial(a))
