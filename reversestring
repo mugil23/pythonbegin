@@ -1,0 +1,13 @@
+def reverse(str):
+    a = ""
+    for ch in str:
+        a = ch + a
+    return a
+
+
+# given string
+mystr = "BeginnersBook"
+print("Given String: ", mystr)
+
+# reversed string
+print("Reversed String: ", reverse(mystr))
