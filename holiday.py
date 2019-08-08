@@ -1,6 +1,6 @@
 #get input
 d = input("")
-dlist = ['monday','tuesday','wednesday','thursday','friday','saturday']
+dlist = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
 hlist = ['sunday']
 if d in dlist:
     print("no")
