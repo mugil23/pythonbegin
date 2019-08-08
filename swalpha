@@ -1,4 +1,4 @@
-a = int(input())
-b = a
-c = b
-print(c)
+n = int(input())
+m = n
+p = m
+print(p)
